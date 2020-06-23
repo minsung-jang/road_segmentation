@@ -1,0 +1,36 @@
+-----------------------------------------------------------------
+--    [Road Segmentation for Google Maps] Setting File         --
+-----------------------------------------------------------------
+
+######################  Input Data ##############################
+
+*** Custom Prefix   : test1_
+*** Data directory	: ../../dataset/GoogleMaps
+*** State name		: AZ
+
+####################### Image Settings ##########################
+
+*** Image input size	: 256
+*** Resizing Number	: 1
+*** Random distortion	: True
+
+################### Training and Test sets ######################
+
+*** Data fraction	: 1.0
+*** Test fraction	: 0.2
+*** Valid fraction	: 0.1
+*** Random seed	    : 32
+
+######################### Learning ##############################
+
+*** Epoch limits 	: 30
+*** Batch Size		: 12
+
+*** EarlyStop Patience	: 10
+*** EarlyStop minDelta	: 1e-12
+
+*** Plateau factor	: 0.1
+*** Plateau Patience	: 10
+*** Plateau minDelta	: 1e-4
+
+
